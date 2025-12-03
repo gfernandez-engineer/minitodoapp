@@ -1,7 +1,7 @@
 # Minitodoapp
 
-Una aplicación sencilla de lista de tareas (ToDo) construida con **HTML**, **JavaScript** y **TailwindCSS**.  
-Permite agregar, editar y borrar tareas de manera rápida y visual, sin necesidad de ventanas emergentes (`prompt`).
+Una aplicación de lista de tareas construida con **HTML**, **JavaScript** y **TailwindCSS**.  
+Permite agregar, editar y borrar tareas de manera rápida y visual
 
 ---
 
