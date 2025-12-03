@@ -1,14 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Mini ToDo App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-  hola
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+  <div class="bg-white shadow rounded p-6 w-full max-w-md">
+    <h1 class="text-xl font-bold text-center mb-4">Mini ToDo App</h1>
+
+    <!-- Input y botón -->
+    <div class="flex mb-4">
+      <input id="taskInput" type="text" placeholder="Escribe una tarea..." class="flex-1 border px-3 py-2">
+      <!-- 👇 aquí usamos onclick -->
+      <button onclick="agregarTarea()" class="bg-blue-500 text-white px-4 py-2">Agregar</button>
+    </div>
+
+    <!-- Lista -->
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="./index.js" defer></script>
 </body>
 
 </html>
